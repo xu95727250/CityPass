@@ -19,6 +19,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         setContentView(getViewId());
         App.activity = this;
         ButterKnife.bind(this);
+        initView();
         initData();
         initListener();
     }
@@ -33,6 +34,6 @@ public abstract class BaseActivity extends AppCompatActivity {
     public abstract void initData(); //初始化数据
     public abstract void loadData(); //加载数据
     public abstract void initListener(); //初始化监听
-    public void initView(){}; //初始化View
+    public abstract void initView(); //初始化View
 
 }
