@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">CityPass</string>
-    <string name="cityname">二组城市通</string>
+    <string name="app_name">超级城市通</string>
+    <string name="hometitle">延庆在线</string>
+    <string name="homehead">头条</string>
+    <string name="homenaonao">闹闹</string>
+    <string name="homeshequ">社区</string>
+    <string name="homelife">生活</string>
+    <string name="homefind">发现</string>
 </resources>

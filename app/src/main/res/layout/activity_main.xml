@@ -4,13 +4,24 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="citypass.jiyun.com.citypass.MainActivity">
+    tools:context="citypass.jiyun.com.citypass.control.activity.MainActivity">
 
-    <TextView
+
+    <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@mipmap/welcome_nomal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            />
+
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="城市通"
-        android:gravity="center"
-        android:textSize="20sp"
-        />
+        android:layout_height="match_parent"
+        android:src="@mipmap/welcome"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
