@@ -3,11 +3,9 @@ package citypass.jiyun.com.citypass.control.activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -53,6 +51,11 @@ public class HomeActivity extends BaseActivity {
 
     @Override
     public void initListener() {
+
+    }
+
+    @Override
+    public void initView() {
 
     }
 
